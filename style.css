@@ -1,0 +1,229 @@
+:root {
+   --dark-bg: #1F2937;
+   --hero-secondary-text: #E5E7EB;
+   --header-logo-text: #F9FAF8;
+   --button-color: #3882F6;
+   --info-text-color: #1F2937;
+   --quote-bg: #E5E7EB;
+   --quote-text-color: #1F2937;
+}
+
+/* This section contains CSS for second page */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.h1-second {
+    color: var(--button-color);
+
+}
+
+.img-second {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+span {
+    color: var(--dark-bg);
+    font-size: xx-large;
+
+}
+
+.body-second {
+    margin-left: 2rem;
+}
+
+.container-second {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.right-sec {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    
+}
+
+
+
+.text-sec {
+    font-size: 1.35rem;
+
+}
+
+/* This section below contains CSS for the main  page */
+
+header {
+    background: var(--dark-bg);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    
+    
+}
+
+.header-container {
+    background: var(--dark-bg);
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    
+   
+}
+
+.right-head > img {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.left-head {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+
+.right-head {
+    display: flex;
+    flex: 1;
+    justify-content: right;
+}
+
+.button-header {
+    color: white;
+    background: var(--button-color);
+    
+}
+
+h1, .p-header {
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+ul li {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    color: var(--info-text-color);
+}
+
+.content-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    gap: 3rem;
+    margin-left: 20%;
+    margin-right: 20%;    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    flex: 1;
+}
+.card > p {
+    color: black;
+    margin-top: 1rem;
+}
+
+.img-card {
+    border-radius: 10px;
+    border: 2px solid #3882F6;
+}
+
+.card > p {
+    text-align: center;
+}
+
+.content-quote {
+    background: var(--quote-bg);
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    margin:4rem 20% 4rem 20%;
+    color: var(--quote-text-color);
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    
+}
+.quote > .strong-quote {
+    display: block;
+    text-align: right;
+}
+
+.content-cta {
+    display: flex;
+    background: var(--button-color);
+    justify-content: space-between;
+    margin:4rem 20% 4rem 20%;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-radius: 10px;
+    align-items: center;
+    
+}
+
+h3, p {
+    color: white;
+    margin: 0;
+}
+
+.cta-right {
+    align-content:end;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer {
+    background: var(--dark-bg);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
